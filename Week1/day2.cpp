@@ -9,6 +9,7 @@ public:
         //any small element before while traversing or not and if not then we interchange
         priority_queue<int> pq;
         int total = 0;
+
         for(auto &x : courses){
             int duration = x[0],end = x[1];
             
