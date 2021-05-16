@@ -4,6 +4,9 @@
 
 ***2. Course Schedule ||| in C++ using priority queue***
 
+***3. Running Sum of 1D array using inplace operations in C++***
+
+
 
 
 
