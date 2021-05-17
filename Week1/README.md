@@ -6,6 +6,9 @@
 
 ***3. Running Sum of 1D array using inplace operations in C++***
 
+***4. Non decreasing arrays by modfying atmost one element in C++***
+
+
 
 
 
