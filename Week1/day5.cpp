@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int jump(vector<int>& nums) {
         
         // initialising the first jump which we take from first index so no. of jumps is default = 1
@@ -27,6 +28,7 @@ public:
                 curr = farthest;
             }
         }
+
         return jumps;
     }
 };
