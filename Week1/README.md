@@ -10,6 +10,8 @@
 
 ***5. Jump Game || Smart LeetCode problem in C++***
 
+***6. Convert Sorted Linkedlist into Binary Search Tree in C++***
+
 
 
 
