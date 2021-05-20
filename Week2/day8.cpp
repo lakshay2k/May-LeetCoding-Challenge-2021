@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     bool ispalindrome(string s)
     {
         //it is to check palindrome
