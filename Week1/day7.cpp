@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int minDistance(string word1, string word2) {
         
         //sizes of given words
@@ -31,6 +32,7 @@ public:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
             }
         }
+
         cout<<dp[s1][s2];
         //return the total - twice of length of common subsequence
         return s1+s2 - 2*dp[s1][s2];
