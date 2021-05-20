@@ -12,6 +12,8 @@
 
 ***6. Convert Sorted Linkedlist into Binary Search Tree in C++***
 
+***7. Delete Operations for Two strings using Dynamic Approach in C++***
+
 
 
 
