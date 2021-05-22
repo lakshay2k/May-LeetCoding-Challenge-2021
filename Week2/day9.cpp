@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     bool isPossible(vector<int>& target) {
         
         //using the top to bottom aaproach i.e dividing the given array to [1,1,1]
