@@ -1,11 +1,13 @@
 class Solution {
 public:
+
     int countPrimes(int n) {
         
         //creating a bool vector of size n and all values to false
         vector<bool> prime_vec;
         for(int i=0;i<n;i++)
             prime_vec.push_back(false);
+
         int count = 0;
         
         //we mark all factors of a (number upto n) as marked and the left ones comes out to be primeNO.
