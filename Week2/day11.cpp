@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int maxScore(vector<int>& cardPoints, int k) {
         
         //while moving sliding window we will sum it in total and store the maxn result in best
@@ -16,6 +17,7 @@ public:
         
         // we will eliminate from leftmost of remaining elements and add the right most of remaining element
         //this is because if we are not selecting from starting i.e left then we will select from right i.e end
+
         for(int i=k-1,j=cardPoints.size()-1;~i;i--,j--)
         {
             /*
