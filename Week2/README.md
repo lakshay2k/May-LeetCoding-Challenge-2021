@@ -1,4 +1,4 @@
-fit# Week 1 of May-LeetCoding-Challenge-2021
+# Week 2 of May-LeetCoding-Challenge-2021
 
 
 ***8. Super Palindrome Hard Leetcode problem in C++***
@@ -6,6 +6,8 @@ fit# Week 1 of May-LeetCoding-Challenge-2021
 ***9. Construct target array with multiple sums using priority queue in C++***
 
 ***10. Count Prime using Sieve of Eratosthenes in C++***
+
+***11. Maximum points you can obtain from cards leetcode problem in C++***
 
 
 
