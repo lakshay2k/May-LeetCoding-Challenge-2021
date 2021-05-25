@@ -13,7 +13,8 @@ public:
         {
             for(int j =1; j<c ;j++)
             {
-                //     column rectangle sum + row RS + matrix value at that place minus the values of previous sum
+                //column rectangle sum + row RS + matrix value at that place minus the values of previous sum
+
                 dp[i][j] = dp[i-1][j] + dp[i][j-1] + matrix[i-1][j-1] - dp[i-1][j-1];
             }
         }
