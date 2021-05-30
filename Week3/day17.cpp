@@ -1,11 +1,16 @@
 class Solution {
 public:
+
     int longestStrChain(vector<string>& words) {
+
         vector<unordered_set<string>> W(17);
+
         for (auto word : words) 
             W[word.size()].insert(word);
+
         unordered_map<string, int> dp;
         int best = 1;
+
         for (int i = 16; i; i--) {
             if (W[i-1].empty()) continue;
             for (auto word : W[i]) {
@@ -20,6 +25,7 @@ public:
                 }
             }
         }
+
         return best;
     }
 };
