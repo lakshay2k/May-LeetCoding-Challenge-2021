@@ -1,7 +1,10 @@
 class Solution {
 public:
+
     vector<vector<string>> findDuplicate(vector<string>& paths) {
+
         unordered_map<string, vector<string>> contMap;
+
         for (auto &pStr : paths) {
             int i = 0;
             while (pStr[i] != ' ') i++;
@@ -17,9 +20,12 @@ public:
                     j = i + 2;
                 }
         }
+
         vector<vector<string>> ans;
+
         for (auto &kv : contMap)
             if (kv.second.size() > 1) ans.push_back(kv.second);
+
         return ans;
     }
 };
