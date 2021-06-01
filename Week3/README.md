@@ -9,6 +9,8 @@
 
 ***18. Find Duplicate File in System in C++***
 
+***19. Minimum moves to equal Array Elements in C++**
+
 
 
 
