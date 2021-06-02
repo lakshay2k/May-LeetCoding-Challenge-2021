@@ -25,6 +25,7 @@ public:
             vector<int> row;
             
             //qlen can be maximum of 2(L & R) 1(L or R) or 0(no children)
+
             for (int i = 0; i < qlen; i++) {
                 
                 //accessing first node means left child of root node first
