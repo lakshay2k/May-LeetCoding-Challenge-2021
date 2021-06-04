@@ -1,6 +1,8 @@
 class Solution {
 public:
+
     string shortestSuperstring(vector<string>& words) {
+
         int cost[12][12] = {0};
         int n = words.size();
         for (int i = 0; i < n; ++i) {
@@ -9,6 +11,7 @@ public:
                 cost[j][i] = helper(words[j], words[i]);
             }
         }
+
         int dp[1<<12][12] = {0};
         int path[1<<12][12] = {0};
         
@@ -30,6 +33,7 @@ public:
                 }
             }
         }
+
         int last = -1, len = INT_MAX;
         for (int i = 0; i < n; ++i) {
             if (dp[(1<<n)-1][i] < len) {
@@ -37,6 +41,7 @@ public:
                 last = i;
             }
         }
+
         int cur = (1 << n) - 1;
         stack<int> stk;
         while (cur > 0) {
@@ -45,6 +50,7 @@ public:
             cur -= (1 << last);
             last = path[tmp][last];
         }
+
         int pre = stk.top();
         stk.pop();
         string res = words[pre];
@@ -56,6 +62,7 @@ public:
         }
         return res;
     }
+
     int helper(string &s1, string& s2) {
         int n1 = s1.size(), n2 = s2.size();
         for (int i = 0; i < n1; ++i) {
@@ -69,4 +76,5 @@ public:
         }
         return n2;
     }
+
 };
