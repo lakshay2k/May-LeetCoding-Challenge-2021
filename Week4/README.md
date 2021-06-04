@@ -2,3 +2,6 @@
 
 ***22. N-Queens Problem in C++***
 
+***23. Find Shortest SuperString in C++***
+
+
