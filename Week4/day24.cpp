@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     string toLowerCase(string s) {
         
         //creating the result string for upper case
