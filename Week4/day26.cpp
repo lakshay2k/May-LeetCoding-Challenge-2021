@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int minPartitions(string n) {
         
         //the minimum number of trun to return a decibinary number is the max at that position
@@ -14,5 +15,6 @@ public:
         
         //returning the max number
         return maximum_number-'0';
+
     }
 };
