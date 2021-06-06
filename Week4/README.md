@@ -8,5 +8,8 @@
 
 ***25. Evaluating Reverse Polish Notation in C++ using Stacks***
 
+***26. Partitioning Into Minimum Number Of Deci-Binary Numbers in C++***
+
+
 
 
