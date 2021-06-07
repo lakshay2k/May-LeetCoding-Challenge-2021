@@ -10,6 +10,8 @@
 
 ***26. Partitioning Into Minimum Number Of Deci-Binary Numbers in C++***
 
+***27. Maximum Product of Word Lengths in C++***
+
 
 
 
