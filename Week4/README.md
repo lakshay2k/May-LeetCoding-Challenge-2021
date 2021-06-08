@@ -12,7 +12,7 @@
 
 ***27. Maximum Product of Word Lengths in C++***
 
-***28. Maximum Erasure Value in C++**
+***28. Maximum Erasure Value in C++***
 
 
 
