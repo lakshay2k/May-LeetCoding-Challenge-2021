@@ -1,9 +1,12 @@
 class Solution {
 public:
+
     int totalNQueens(int n) {
+
         vector<vector<string>> vec;
 		// Inititally filling all with '.' as we have to mark Q
         vector<string> board(n,string(n,'.')); 
+
         backtrack(vec,board,0,n);
         return vec.size();
     }
@@ -29,6 +32,7 @@ public:
             }
         }
     }
+
     bool isValid(vector<string> &board,int row,int col,int n)
     {    
 	    // If column has queen already
