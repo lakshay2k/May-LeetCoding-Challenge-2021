@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int maximumGap(vector<int>& nums) {
         
         if (nums.size() < 2) 
@@ -29,6 +30,7 @@ public:
             
             ans = max(ans, currlo - prevhi);
         }
+
         return ans;
     }
 };
