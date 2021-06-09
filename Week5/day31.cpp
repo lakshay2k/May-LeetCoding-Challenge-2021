@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
         
         vector<vector<string>> res;
@@ -20,6 +21,7 @@ public:
             }
             res.push_back(tmp);
         }
+
         return res;
     }
 };
